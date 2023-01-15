@@ -1,4 +1,8 @@
-/* Google Fonts */
+/* -- */
+/*-----------------------------------*\
+  #Google Fonts
+\*-----------------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
@@ -7,6 +11,11 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+
 
 header {
     background-image: linear-gradient(to right, rgba(255, 144, 14, 0.1) 86%, #FFFFFF 0%);
@@ -23,19 +32,19 @@ header {
     padding: 0 25px;
 }
 
-.left-width>h1 {
+.logo>h1 {
     color: #131313;
     font-weight: 700;
     font-size: 45px;
 }
 
-.right-width {
+.nav-list {
     display: flex;
     gap: 48px;
 
 }
 
-.right-width>a {
+.nav-list>a {
     text-decoration: none;
     color: #424242;
     font-weight: 500;
@@ -45,12 +54,11 @@ header {
     z-index: 1;
 }
 
-.right-width>a::before {
+.nav-list>a::before {
     content: "";
     width: 8px;
     height: 12%;
     background-color: #FF900E;
-
     position: absolute;
     left: 0;
     bottom: 0;
@@ -60,14 +68,12 @@ header {
 
 }
 
-.right-width>a:hover::before {
+.nav-list>a:hover::before {
     width: 100%;
     visibility: visible;
 }
 
 .hero-container {
-    /* width: 100%; */
-    /* max-width: 1200px; */
     width: 852px;
     margin: 0 auto;
     text-align: center;
@@ -106,6 +112,14 @@ header {
     background-size: cover;
     margin: 0 auto;
 }
+
+/*-----------------------------------*\
+  #HEADER END
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+  #MAIN SECTION
+\*-----------------------------------*/
 
 .main-container {
     display: flex;
@@ -154,7 +168,13 @@ header {
     padding: 18px 0 28px;
 }
 
-/* ---- */
+/*-----------------------------------*\
+  #MAIN SECTION END
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+  #EXPERIENCE-SECTION
+\*-----------------------------------*/
 
 .experience-section {
     display: flex;
@@ -233,6 +253,14 @@ header {
     height: 820px;
 }
 
+/*-----------------------------------*\
+  #EXPERIENCE-SECTION END
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+  #FACTS-SECTION
+\*-----------------------------------*/
+
 .facts-title {
     width: 1100px;
     margin: 0 auto 82px;
@@ -294,12 +322,19 @@ header {
     top: 0;
     z-index: -1;
     transition: 0.6s all;
-
 }
 
 .box:hover::before {
     width: 100%;
 }
+
+/*-----------------------------------*\
+  #FACTS-SECTION END
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+  #PROJECTS
+\*-----------------------------------*/
 
 /* project */
 .projects {
@@ -343,7 +378,14 @@ header {
     color: #FF900E;
 }
 
-/* footer Style */
+/*-----------------------------------*\
+  #PROJECTS END
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
 
 .foot-title {
     text-align: center;
@@ -382,3 +424,7 @@ header {
     text-align: center;
     padding: 28px;
 }
+
+/*-----------------------------------*\
+  #FOOTER END
+\*-----------------------------------*/
